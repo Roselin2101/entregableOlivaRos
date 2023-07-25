@@ -1,0 +1,33 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.nv{
+    background-color: #373A3C;
+
+}
+
+#Hero-Section{
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#mis-trabajos .image-top{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#contacto form label {
+    font-weight:  700;
+    color: #373A3C;
+}
+@media (max-width: 768px) {
+    #contacto form label{
+        font-weight: 400;
+    }
+    
+}
